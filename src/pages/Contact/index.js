@@ -1,7 +1,7 @@
 import React from 'react';
 import Title from "../common/Title";
 import ContactForm from "./Form";
-import MyForm from '../../MyForm';
+import MyForm from './Form/MyForm';
 
 const Contact = () => {
     return (

@@ -47,20 +47,21 @@ export default function MyForm() {
       minH={"100vh"}
       align={"center"}
       justify={"center"}
-      bg={useColorModeValue("gray.50", "gray.800")}
+      
     >
       <Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
         <Stack align={"center"}>
-          <Heading fontSize={"4xl"}>Send email to the account</Heading>
+          <Heading fontSize={"4xl"}>Vamos a Crear Juntos</Heading>
           <Text fontSize={"lg"} color={"gray.600"}>
             Don't forget to subscribe ✌️
           </Text>
         </Stack>
-        <Box
+        <Box id="box-contact"
           rounded={"lg"}
           bg={useColorModeValue("white", "gray.700")}
-          boxShadow={"lg"}
           p={8}
+          borderRadius="10px" // Ajusta el valor según lo deseado
+          boxShadow="md" // Agrega una sombra opcional para resaltar el borde
         >
           <Stack spacing={4}>
             {/* <FormControl id="email">
@@ -71,6 +72,14 @@ export default function MyForm() {
                 onChange={(e) => setEmail(e.target.value)}
               />
             </FormControl> */}
+            <FormControl id="user-email">
+              <FormLabel>Your Email</FormLabel>
+              <Input
+                type="email"
+                placeholder="Your Email Address"
+                onChange={(e) => setEmail(e.target.value)}
+              />
+            </FormControl>
             <FormControl id="email">
               <FormLabel>Subject</FormLabel>
               <Input
@@ -86,14 +95,7 @@ export default function MyForm() {
                 placeholder="Enter your message here..."
               />
             </FormControl>
-            <FormControl id="user-email">
-              <FormLabel>Your Email</FormLabel>
-              <Input
-                type="email"
-                placeholder="Your Email Address"
-                onChange={(e) => setEmail(e.target.value)}
-              />
-            </FormControl>
+            
             <Stack spacing={10}>
               <Button
                 bg={"blue.400"}
