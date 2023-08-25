@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+.typed-text {
+  margin: 0;
+  display: inline-block;
+  color: var(--primary-color);
+  font-size: 45px;
+  line-height: 60px;
+  height: 40px;
+  font-weight: 500;
+  z-index: 3;
+  font-family: 'Island Moments', sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); 
+}
+
+.typed-cursor {
+  width: 2px;
+  color: #0b0b0b;
+  font-size: 16px;
+  line-height: 20px;
+  height: 20px;
+  z-index: 3;
+  font-family: 'Island Moments', sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
