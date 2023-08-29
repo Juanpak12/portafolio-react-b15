@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
 
 .resume-content {
     max-width: 800px; /* Limita el ancho del contenido */
@@ -8,16 +9,28 @@
 }
 
 .resume-content h1 {
+    padding-top: 40px;
     font-size: 50px;
     font-family: 'Island Moments', sans-serif;
-    color: #333;
+    color: #000000;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .resume-content p {
     font-family: 'Times New Roman', Times, serif;
+    font-family: 'Yatra One', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #666;
+    color: #181818;
     margin-bottom: 20px;
 }
+.underline {
+    height: 0.25rem;
+    width: 50%;
+    min-width: 3rem;
+    border-radius: 0.25rem;
+    margin: 0 auto 1.5rem auto;
+    background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
+  }

@@ -13,6 +13,8 @@ import {
   Textarea,
 } from "@chakra-ui/react";
 
+import "./index.scss";
+
 export default function MyForm() {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -49,21 +51,22 @@ export default function MyForm() {
       justify={"center"}
       
     >
-      <Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
+      <Stack spacing={4} mx={"auto"} maxW={"lg"} py={12} px={6}>
         <Stack align={"center"}>
-          <Heading fontSize={"4xl"}>Vamos a Crear Juntos</Heading>
-          <Text fontSize={"lg"} color={"gray.600"}>
-            Don't forget to subscribe ✌️
+          <Heading fontFamily={'yatra one'} fontSize={"4xl"}>Vamos a Crear Juntos</Heading>
+          <Text fontFamily={'yatra one'} fontSize={"20px"} color={"gray.600"}>
+            Contactame ✌️
           </Text>
         </Stack>
-        <Box id="box-contact"
+        <Box 
+          id="box-contact"
           rounded={"lg"}
-          bg={useColorModeValue("white", "gray.700")}
+          bg={useColorModeValue("azure", "azure")}
           p={8}
           borderRadius="10px" // Ajusta el valor según lo deseado
           boxShadow="md" // Agrega una sombra opcional para resaltar el borde
         >
-          <Stack spacing={4}>
+          <Stack id="containerForms" spacing={4}>
             {/* <FormControl id="email">
               <FormLabel>Email address</FormLabel>
               <Input
@@ -96,8 +99,9 @@ export default function MyForm() {
               />
             </FormControl>
             
-            <Stack spacing={10}>
+            <Stack id="contButtom" spacing={10}>
               <Button
+                id="buttomContact"
                 bg={"blue.400"}
                 color={"white"}
                 _hover={{

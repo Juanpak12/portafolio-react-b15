@@ -1,4 +1,5 @@
 @import "../../styles/absctract/mixins";
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
 
 
 .profile {
@@ -137,4 +138,8 @@
 }
 .nameprofile {
   height: 40px;
+}
+
+#spanProfile {
+  font-family: 'Yatra One', sans-serif;
 }

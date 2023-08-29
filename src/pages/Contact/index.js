@@ -6,9 +6,6 @@ import MyForm from './Form/MyForm';
 const Contact = () => {
     return (
         <div className="page" id="contact">
-            <Title>
-                Contact Me
-            </Title>
             <MyForm />
         </div>
     );

@@ -6,6 +6,7 @@ const Resume = () => {
         <div className="page" id="resume">
             <div className="resume-content">
                 <h1>¡Saludos!</h1>
+                <div className="underline"></div>
                 <p>Mi nombre es Juan Pablo Peña, como un apasionado programador frontend, he forjado mi camino en el vasto mundo de la tecnología. Mi travesía comenzó en la Universidad Distrital Francisco José de Caldas, donde me adentré en el mundo de la ingeniería electrónica. Aunque no culminé esa carrera, mi fascinación por la electrónica me llevó a una trayectoria emocionante como técnico electrónico.</p>
                 <p>Durante más de cinco años, he inmerso mis habilidades en la implementación y administración de sistemas de seguridad. Desde CCTV hasta sistemas de intrusión y contra incendios. Mi pericia se extiende a la automatización y el control de acceso donde la tecnología siempre ha estado presente.</p>
                 <p>Hoy, estoy forjando una nueva travesía en el mundo de la programación. Estoy estudiando ingeniería de sistemas en la Universidad Minuto de Dios, explorando cada línea de código como un nuevo horizonte por descubrir.</p>

@@ -42,12 +42,12 @@ const Profile = () => {
             <div className="profile__contact">
                 {/* Falta hoja de vida */}
                 <a href="" target="_blank" rel="noreferrer">
-                        <span>
+                        <span id='spanProfile'>
                             Download CV
                         </span>
                 </a>
-                <a href="mailto:juanpak12@gmail.com">
-                        <span>
+                <a href="mailto:juanpak12@gmail.com" >
+                        <span id='spanProfile'>
                             Contact Me
                         </span>
                 </a>
