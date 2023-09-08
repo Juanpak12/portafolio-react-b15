@@ -10,6 +10,11 @@
 
      &:hover > span {
        color: var(--primary-color);
+       transform: scale(2.00);
+       
+       @include respond(tab-port) {
+        transform: scale(1.50);
+      }
      }
 
      & > span {

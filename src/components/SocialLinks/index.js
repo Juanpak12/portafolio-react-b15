@@ -18,7 +18,7 @@ const SocialLinks = () => {
                 type={'whatsapp'}
             />
             <SocialLinks.Link
-                url={''}
+                url={'https://torre.ai/s/itEAy59rAH'}
                 type={'tumblr'}
             />
         </div>

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import "../../../styles/absctract/mixins";
+
 .works-menu {
   margin-left: 10px;
   button {
@@ -7,12 +10,26 @@
     vertical-align: top;
     height: 40px;
     line-height: 40px;
-    font-size: 14px;
     color: #646464;
     cursor: pointer;
     border: none;
-    text-transform: capitalize;
     background-color: transparent;
+    padding-top: 40px;
+    font-size: 50px;
+    font-family: "Island Moments", sans-serif;
+    color: #000000;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+    @include respond(tab-port) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      font-size: 32px;
+    }
+  }
+    
 
     &:not(:last-child) {
       margin-right: 15px;
@@ -22,4 +39,4 @@
       color: var(--primary-color);
     }
   }
-}
+

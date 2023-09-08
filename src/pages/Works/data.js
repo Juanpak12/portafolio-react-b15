@@ -1,89 +1,48 @@
 export const projects = [
     {
-        title: 'React Portfolio',
+        title: 'React Portafolio',
         images: [
-            'https://i.ibb.co/0hb1bwH/Screenshot-5.png',
-            'https://i.ibb.co/xqWqMGs/Screenshot-6.png',
+            'https://i.ibb.co/jyFwbGD/banerOne.png',
         ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/react-portfolio',
-        demoLink: 'https://emrebaskan.netlify.app/',
-        type: 'react'
+        sourceCodeLink: 'https://github.com/Juanpak12/portafolio-react-b15',
+        demoLink: 'https://portafolio-juanpak12.netlify.app',
+        type: 'Proyectos'
     },
     {
-        title: 'React Ecommerce App With Redux',
+        title: 'Crypto Dash',
         images: [
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm1-1.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm2-2.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm4.png'
+            'https://i.ibb.co/pL25JQr/vue.jpg',
         ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/React-Ecommerce-App-with-Redux',
-        demoLink: 'http://numberless-leg.surge.sh/',
-        type: 'react'
+        sourceCodeLink: 'https://github.com/Juanpak12/crypto-dash-b14',
+        demoLink: 'https://crypto-dash-b14.netlify.app',
+        type: 'Proyectos'
     },
     {
-        title: 'Vue Ecommerce App With Vuex',
+        title: 'Landing Page Deezer',
         images: [
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm1-1.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm2-2.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm4.png'
+            'https://i.ibb.co/fDgBLnf/angular.png',
         ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/Vue-Ecommerce-App-with-Vuex',
-        demoLink: 'http://sincere-wind.surge.sh/',
-        type: 'vue'
+        sourceCodeLink: 'https://github.com/Juanpak12/Deezer-B7',
+        demoLink: 'https://deezer-b7.netlify.app',
+        type: 'Proyectos'
     },
     {
-        title: 'Angular Ecommerce App With Ngrx',
+        title: 'Api Pokedex',
         images: [
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm1-1.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm2-2.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm4.png'
+            'https://i.ibb.co/gZY7tKq/js.png',
         ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/Angular-Ecommerce-App-with-NGRX',
-        demoLink: 'http://delirious-coast.surge.sh/',
-        type: 'angular'
+        sourceCodeLink: 'https://github.com/Juanpak12/Briefing12-Pokedex',
+        demoLink: 'https://b12-pokedex.netlify.app',
+        type: 'Proyectos'
     },
     {
-        title: 'React Chat App With Redux And Firebase',
+        title: 'Jujutsu-Kaisen-WEB-Tributo',
         images: [
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_31.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_27.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_28.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_24.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_25.png'
+            'https://i.ibb.co/1bGPZVb/ngrx.png',
         ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/React-Chat-App-With-Redux-And-Firebase',
-        demoLink: 'https://react-chat-appp.netlify.app/',
-        type: 'react'
-    },
-    {
-        title: 'Angular Chat app',
-        images: [
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_31.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_27.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_28.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_24.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_25.png'
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/React-Chat-App-With-Redux-And-Firebase',
-        demoLink: 'https://react-chat-appp.netlify.app/',
-        type: 'angular'
-    },
-    {
-        title: 'RxJS Clone',
-        images: [
-            'https://i.ibb.co/KGsh7kM/Screenshot-7.png',
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/rxjs-clone',
-        demoLink: 'https://stackblitz.com/edit/rxjs-clone?file=index.ts',
-        type: 'js'
-    },
-    {
-        title: 'Lodash Clone',
-        images: [
-            'https://www.agiliacenter.com/wp-content/uploads/2018/04/Lodash.png',
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/Lodash-Clone',
-        demoLink: '#',
-        type: 'js'
+        sourceCodeLink: 'https://github.com/Juanpak12/Jujutsu-Kaisen-WEB',
+        demoLink: 'https://jujutsukaisenblog.netlify.app',
+        type: 'Proyectos'
     }
+
 ]

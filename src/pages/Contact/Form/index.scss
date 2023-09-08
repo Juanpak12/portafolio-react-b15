@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import "../../../styles/absctract/mixins";
 
 #box-contact {
   background-color: rgb(255, 255, 255);
@@ -12,6 +13,9 @@
   font-size: 15px;
   justify-content: center;
   color: var(--primary-color);
+  @include respond(tab-port) {
+    grid-template-columns: 300px;
+  }
   input, textarea {
     margin: 0;
     padding: 0 15px;

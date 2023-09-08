@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+@import "../../styles/absctract/mixins";
+
+#works {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    @include respond(phone) {
+        padding-right: 2px;
+        padding-left: 2px;
+      }
+}
+
+.row {
+    flex-direction: column;
+}
+

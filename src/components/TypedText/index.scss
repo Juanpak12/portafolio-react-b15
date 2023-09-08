@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import "../../styles/absctract/mixins";
 
 .typed-text {
   margin: 0;
@@ -11,6 +12,10 @@
   z-index: 3;
   font-family: 'Island Moments', sans-serif;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); 
+
+  @include respond(tab-port) {
+    font-size: 32px;
+  }
 }
 
 .typed-cursor {

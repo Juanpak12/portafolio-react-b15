@@ -7,6 +7,7 @@ import Info from "../Info";
 import {ThemeContext} from "../../context/ThemeContext";
 import {useAnimation} from "../../use/animation";
 import me from '../../assets/me.png';
+import cv from '../../assets/CV/CV.pdf'
 
 {/* import NameProfile from '../../assets/JuanPablo.png'; */}
 
@@ -41,7 +42,7 @@ const Profile = () => {
             </div>
             <div className="profile__contact">
                 {/* Falta hoja de vida */}
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1O18-oPHXC8RhJPXbmkSb6pRgjskhXEmY/view?usp=drive_link" target="_blank" rel="noreferrer">
                         <span id='spanProfile'>
                             Download CV
                         </span>

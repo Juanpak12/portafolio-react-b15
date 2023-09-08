@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { projects } from './data';
-import Title from "../common/Title";
 import WorkItem from "./Item";
 import WorksMenu from "./Menu";
+import './index.scss';
+
 
 const initalState = projects.filter(p => p.type === 'react');
 
@@ -18,15 +19,9 @@ const Works = () => {
 
     return (
         <div className="page" id="works">
-            <Title>
-                Works - Talk is cheap show me the code!
-            </Title>
             <WorksMenu
                 items={[
-                    'react',
-                    'angular',
-                    'vue',
-                    'js'
+                    'Proyectos'
                 ]}
                 selected={selectedType}
                 clicked={handleMenuChange}
