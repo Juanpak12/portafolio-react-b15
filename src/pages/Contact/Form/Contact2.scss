@@ -20,6 +20,11 @@ body{
     top: 80px;
     left: 0px;
     font-size: 30px;
+    @include respond(tab-port) {
+      font-size: 20px;
+      top: 10px;
+      bottom: 30px;
+    }
 }
 
 #Title2contact{
@@ -27,6 +32,9 @@ body{
   font-family: "yatra one";
   font-size: 24px;
   font-weight: bold;
+  @include respond(tab-port) {
+    font-size: 20px;
+  }
 }
 
 #Title5contact{
@@ -34,6 +42,9 @@ body{
   font-family: "yatra one";
   font-size: 20px;
   font-weight: lighter;
+  @include respond(tab-port) {
+    font-size: 16px;
+  }
 }
 
 
