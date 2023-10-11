@@ -14,7 +14,14 @@
         padding-left: 2px;
       }
 }
-
+#titleSelection{
+    font-family: Yatra One;
+    font-weight: lighter;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    @include respond(phone) {
+        font-size: 20px;
+      }
+}
 .row {
     flex-direction: column;
 }

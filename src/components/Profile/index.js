@@ -6,6 +6,7 @@ import Info from "../Info";
 // import Skills from "../Skills";
 import {ThemeContext} from "../../context/ThemeContext";
 import {useAnimation} from "../../use/animation";
+import Skills from '../Skills2/Skills';
 import me from '../../assets/me.png';
 import cv from '../../assets/CV/CV.pdf'
 
@@ -39,6 +40,7 @@ const Profile = () => {
                 <Info icon="location">
                     Bogotá DC
                 </Info>
+                <Skills/>
             </div>
             <div className="profile__contact">
                 {/* Falta hoja de vida */}

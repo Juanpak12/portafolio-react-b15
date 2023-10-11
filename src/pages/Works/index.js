@@ -19,9 +19,14 @@ const Works = () => {
 
     return (
         <div className="page" id="works">
+            <h2 id='titleSelection'>Dale Click 🔽 al tipo de proyecto </h2>
             <WorksMenu
                 items={[
-                    'Proyectos'
+                    'HTML',
+                    'CSS',
+                    'API',
+                    'JavaScript',
+                    'React',
                 ]}
                 selected={selectedType}
                 clicked={handleMenuChange}
