@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import "../../../styles/absctract/_mixins.scss";
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+    font-family: 'yatra one', sans-serif;
+}
+
+
+
+
+
+#TitlesContact{
+    padding: 0;
+    position: relative;
+    text-align: center;
+    bottom: 50px;
+    top: 80px;
+    left: 0px;
+    font-size: 30px;
+}
+
+#Title2contact{
+  
+  font-family: "yatra one";
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#Title5contact{
+  
+  font-family: "yatra one";
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+
+#contact__container {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'yatra one', sans-serif;
+  }
+  
+  #form {
+    max-width: 400px;
+    font-family: 'yatra one', sans-serif;
+    margin-bottom: 60px;
+    width: 100%;
+    padding: 5%;
+    border: none;
+    border-radius: 7px;
+    background: #ffffff;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  form:hover {
+    transform: translateY(-5px); /* Agrega un efecto de elevación al pasar el ratón */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  input,
+  textarea {
+    font-family: 'yatra one', sans-serif;
+    font-size: 13px;
+    color: var(--secondary-color);
+    background: 0 0;
+    border: 2px solid #eee;
+    resize: none;
+    outline: 0;
+    transition: all .3s ease 0s;
+    font-family: 'yatra one', sans-serif;
+    width: 100%;
+    padding: 4%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    resize: none;
+    transition: border-color 0.3s ease;
+  }
+  
+
+  input:focus,
+  textarea:focus {
+    border-color: var(--primary-color); /* Cambia el color del borde al enfocar */
+  }
+  
+  .btn {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    color: white;
+    border-radius: 10px;
+    font-family: 'yatra one', sans-serif;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: center;
+    background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
+    border: none;
+    &:hover {
+      transform: scale(1.05);
+  }
+}
