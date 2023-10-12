@@ -44,7 +44,7 @@ const Profile = () => {
             </div>
             <div className="profile__contact">
                 {/* Falta hoja de vida */}
-                <a href="https://drive.google.com/file/d/1nNSdQOBVsrNvgRrIUSnU8Y7ECTMVtz6l/view?usp=sharing" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/18Ls9LCnG-X8SofVLt_W8oOGgGR5frqgs/view?usp=sharing" target="_blank" rel="noreferrer">
                         <span id='spanProfile'>
                             Download CV
                         </span>
